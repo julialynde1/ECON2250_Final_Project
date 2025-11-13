@@ -13,11 +13,18 @@ Quarto enables you to weave together content and executable code into a finished
 ```{r}
 install.packages("readxl")
 library(readxl)
-data <- read_excel("sc-est2024-agesex-50.xlsx")
+data <- read_excel("Age_Data_Vermont_2020.xlsx")
 
 ```
 
 ```{r}
 colnames(data)
+
+```
+
+```{r}
+
+mean_age <- weighted.mean(data$Age, w = data$Population)
+mean_age
 
 ```
