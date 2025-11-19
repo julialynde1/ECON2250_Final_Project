@@ -7,60 +7,7 @@ editor: visual
 ## Hypothesis Testing
 
 ```{r}
-install.packages("readxl")
-library(readxl)
-data <- read_excel("California_Age_Data_2020.xlsx") 
-```
-
-```{r}
-install.packages("readxl")
-library(readxl)
-data <- read_excel("Vermont_Age_Data_2020.xlsx")
-```
-
-```{r}
-library(readxl)
-library(dplyr)
-
-# Read sheets (replace sheet names if needed)
-vt <- read_excel("Vermont_Age_Data_2020.xlsx", sheet = 1)
-ca <- read_excel("California_Age_Data_2020.xlsx", sheet = 1)
-
-# Make sure age and population columns are correct
-# If the column names differ, rename them here:
-# vt <- rename(vt, age = AgeColumnName, population = PopColumnName)
-
-# Weighted means
-mean_vt <- weighted.mean(vt$Age, vt$Population)
-mean_ca <- weighted.mean(ca$Age, ca$Population)
-
-# Weighted variances
-var_vt <- Hmisc::wtd.var(vt$Age, vt$Population)
-var_ca <- Hmisc::wtd.var(ca$Age, ca$Population)
-
-# Effective sample sizes
-n_vt <- sum(vt$Population)
-n_ca <- sum(ca$Population)
-
-# Standard error
-se <- sqrt(var_vt / n_vt + var_ca / n_ca)
-
-# t statistic (one-sided test: Vermont > California)
-t_value <- (mean_vt - mean_ca) / se
-
-# Degrees of freedom (Welch)
-df <- (var_vt/n_vt + var_ca/n_ca)^2 /
-      ((var_vt/n_vt)^2/(n_vt - 1) + (var_ca/n_ca)^2/(n_ca - 1))
-
-# One-sided p-value
-p_value <- 1 - pt(t_value, df)
-
-list(
-  mean_vermont = mean_vt,
-  mean_california = mean_ca,
-  t_value = t_value,
-  df = df,
-  p_value = p_value
-)
+library(probstats4econ)
+cps%>%filter(statefips%in%c("VT","CA"))%>%glimpse()
 
 ```
