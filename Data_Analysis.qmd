@@ -1,0 +1,19 @@
+---
+title: "Data Analysis"
+format: html
+editor: visual
+---
+
+## Data Analysis
+
+```{r}
+library(readxl)
+
+# Load two sheets (or two files)
+sheet1 <- read_excel("file1.xlsx", sheet = 1)
+sheet2 <- read_excel("file2.xlsx", sheet = 1)
+
+# Suppose the variable you want to compare is called "score"
+t.test(sheet1$score, sheet2$score)
+
+```
