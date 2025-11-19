@@ -6,6 +6,8 @@ editor: visual
 
 ## Hypothesis Testing
 
+library pull
+
 ```{r}
 library(probstats4econ)
 cps%>%filter(statefips%in%c("VT","CA"))%>%glimpse()
