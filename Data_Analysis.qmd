@@ -4,16 +4,16 @@ format: html
 editor: visual
 ---
 
-## Data Analysis
+## T-test
 
 ```{r}
+install.packages("readxl")
 library(readxl)
+data <- read_excel("California_Age_Data_2020.xlsx") 
+```
 
-# Load two sheets (or two files)
-sheet1 <- read_excel("file1.xlsx", sheet = 1)
-sheet2 <- read_excel("file2.xlsx", sheet = 1)
-
-# Suppose the variable you want to compare is called "score"
-t.test(sheet1$score, sheet2$score)
-
+```{r}
+install.packages("readxl")
+library(readxl)
+data <- read_excel("Vermont_Age_Data_2020.xlsx")
 ```
