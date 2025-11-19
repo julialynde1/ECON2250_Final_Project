@@ -4,7 +4,7 @@ format: html
 editor: visual
 ---
 
-## T-test
+## Hypothesis Testing
 
 ```{r}
 install.packages("readxl")
@@ -16,4 +16,8 @@ data <- read_excel("California_Age_Data_2020.xlsx")
 install.packages("readxl")
 library(readxl)
 data <- read_excel("Vermont_Age_Data_2020.xlsx")
+```
+
+```{r}
+
 ```
