@@ -13,7 +13,7 @@ Quarto enables you to weave together content and executable code into a finished
 ```{r}
 install.packages("readxl")
 library(readxl)
-data <- read_excel("Age_Data_Vermont_2020_Clean.xlsx")
+data <- read_excel("Vermont_Age_Data.xlsx")
 
 ```
 
@@ -29,7 +29,7 @@ colnames(data)
 library(readxl)
 
 # 1. Read Excel file
-data <- read_excel("Age_Data_Vermont_2020_Clean.xlsx")
+data <- read_excel("Vermont_Age_Data.xlsx")
 
 # 2. Ensure columns are numeric
 data$Age <- as.numeric(data$Age)
