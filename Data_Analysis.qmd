@@ -52,7 +52,18 @@ boxplot(vt,
 
 ```
 
-## Confidence Intervals 
-``` {r}
+```{r}
+ca <- vt_ca$age[vt_ca$statefips == "CA"]
+
+boxplot(ca,
+        main = "California Age Distribution",
+        ylab = "Age",
+        xlab = "")
+
+```
+
+## Confidence Intervals
+
+```{r}
 
 ```
