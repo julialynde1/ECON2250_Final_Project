@@ -52,8 +52,54 @@ boxplot(vt,
 
 ```
 
+<<<<<<< HEAD
 ## Confidence Intervals 
 ``` {r}
+library(ggplot2)
+
+# Your values:
+diff_mean <- 44.51026 - 45.30556   # difference in means
+se_diff <-  (3.781076) / 1.96      # approximate standard error from CI width (CI width / 1.96 for 95%)
+                                  # Note: This assumes symmetric CI, so adjust if not symmetric
+
+# Define 95% CI bounds (using your lower bound and an upper bound for plotting)
+ci_lower <- diff_mean - 1.96 * se_diff
+ci_upper <- diff_mean + 1.96 * se_diff
+
+# Create a sequence of x values over a reasonable range
+x <- seq(diff_mean - 4 * se_diff, diff_mean + 4 * se_diff, length.out = 200)
+
+# Calculate normal density values for these x
+y <- dnorm(x, mean = diff_mean, sd = se_diff)
+
+# Put into a data frame
+df <- data.frame(x = x, y = y)
+
+# Plot with shaded 95% confidence interval
+ggplot(df, aes(x, y)) +
+  geom_line(color = "blue") +
+  geom_ribbon(data = subset(df, x >= ci_lower & x <= ci_upper), aes(ymin = 0, ymax = y), fill = "blue", alpha = 0.3) +
+  labs(
+    title = "Normal Distribution of Difference in Means with 95% CI",
+    x = "Difference in Means (CA - VT)",
+    y = "Density"
+  ) +
+  theme_minimal()
+=======
+```{r}
+ca <- vt_ca$age[vt_ca$statefips == "CA"]
+>>>>>>> e1e389c851a85366e740eaa0616929e5c348dec0
+
+boxplot(ca,
+        main = "California Age Distribution",
+        ylab = "Age",
+        xlab = "")
+
+```
+
+## Confidence Intervals
+
+```{r}
 library(ggplot2)
 
 # Your values:
