@@ -30,6 +30,13 @@ t.test(age ~ statefips,
        data = vt_ca,
        alternative = "greater")
 ```
-::: {.textbox}
-This is my trying the textbook. 
+
+::: textbox
+This is my trying the textbook.
+
+**t value:** indicates that the mean of data set "ca" (California) is lower than that of data set "vt" (Vermont).
+
+**p-value:** the value is high indicating that there is a high chance the null hypothesis is true.
+
+**alternative hypothesis:** the test was run to see if the result of ca-vt was less than or equal to 0, and a negative difference would indicate that the mean of ca is less than vt.
 :::
