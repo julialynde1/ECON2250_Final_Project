@@ -6,6 +6,10 @@ editor: visual
 
 ## Hypothesis Testing
 
+```{r}
+library(tidyverse)
+```
+
 ## CPS Library Pull
 
 ```{r}
@@ -14,8 +18,12 @@ cps%>%filter(statefips%in%c("VT","CA"))%>%glimpse()
 
 ```
 
+```{}
+```
+
 ## One Sided T-test
 
 ```{r}
-
+vt <- cps%>%filter(statefips == "VT")
+t.test(vt$age, mu = 40, alternative = "greater")
 ```
