@@ -52,8 +52,6 @@ boxplot(vt,
 
 ```
 
-\<\<\<\<\<\<\< HEAD \## Confidence Intervals
-
 ```{r}
 ca <- vt_ca$age[vt_ca$statefips == "CA"]
 
