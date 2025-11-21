@@ -44,3 +44,9 @@ t.test(age ~ statefips,
 ```{r}
 
 ```
+
+## Confidence Intervals 
+``` {r}
+
+
+```
