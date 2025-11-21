@@ -18,12 +18,9 @@ cps%>%filter(statefips%in%c("VT","CA"))%>%glimpse()
 
 ```
 
-```{}
+```{r}
+vt_ca <- cps %>%
+  filter(statefips %in% c("VT", "CA"))
 ```
 
 ## One Sided T-test
-
-```{r}
-vt <- cps%>%filter(statefips == "VT")
-t.test(vt$age, mu = 40, alternative = "greater")
-```
