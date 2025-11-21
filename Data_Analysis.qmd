@@ -51,3 +51,8 @@ boxplot(vt,
 
 
 ```
+
+## Confidence Intervals 
+``` {r}
+
+```
