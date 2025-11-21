@@ -38,3 +38,9 @@ t.test(age ~ statefips,
 
 **alternative hypothesis:** the test was run to see if the result of ca-vt was less than or equal to 0, and a negative difference would indicate that the mean of ca is less than vt.
 :::
+
+## Box and Whisker Plot
+
+```{r}
+
+```
