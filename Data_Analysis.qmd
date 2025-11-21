@@ -6,10 +6,30 @@ editor: visual
 
 ## Hypothesis Testing
 
-library pull
+```{r}
+library(tidyverse)
+```
+
+## CPS Library Pull
 
 ```{r}
 library(probstats4econ)
 cps%>%filter(statefips%in%c("VT","CA"))%>%glimpse()
 
 ```
+
+```{r}
+vt_ca <- cps %>%
+  filter(statefips %in% c("VT", "CA"))
+```
+
+## One Sided T-test
+
+```{r}
+t.test(age ~ statefips,
+       data = vt_ca,
+       alternative = "greater")
+```
+::: {.textbox}
+This is my trying the textbook. 
+:::
