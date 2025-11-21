@@ -24,3 +24,9 @@ vt_ca <- cps %>%
 ```
 
 ## One Sided T-test
+
+```{r}
+t.test(age ~ statefips,
+       data = vt_ca,
+       alternative = "greater")
+```
