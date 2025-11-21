@@ -32,8 +32,6 @@ t.test(age ~ statefips,
 ```
 
 ::: textbox
-This is my trying the textbook.
-
 **t value:** indicates that the mean of data set "ca" (California) is lower than that of data set "vt" (Vermont).
 
 **p-value:** the value is high indicating that there is a high chance the null hypothesis is true.
