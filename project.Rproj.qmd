@@ -1,16 +1,14 @@
 ---
-title: "Data Analysis"
+title: "Hypothesis Testing"
 format: html
 editor: visual
 ---
 
-## Hypothesis Testing
+## CPS Library Pull
 
 ```{r}
 library(tidyverse)
 ```
-
-## CPS Library Pull
 
 ```{r}
 library(probstats4econ)
