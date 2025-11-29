@@ -4,8 +4,10 @@ format: html
 editor: visual
 ---
 
-## Quarto
+## Project Description
+
+```{r}
+Our project analyzes the average age of workforce eligible residents of Vermont and California. This research explores urbanization, provided that California is substantially more urbanized relative to Vermont. We hypothesize that such differences in urbanization are reflected in the workforce age distribution. Specifically, we expect the average age of workforce eligibile population to be greater in Vermont relative to Vermont (our null hypothesis). Such a hypothesis calls for a one-sided T-test. We are driven to such research in an effort to gain further insight into the economic conditions of different states. Fundamentally, a higher average age of an eligibile workforce population can indicate an aging population, a shrinking workforce, and slowed prodcutivity. Such conditions, on a broader level, can letter connect to broader macroeconomic principles such as human capital capacity and GDP. 
+```
 
 ## Running Code
-
-
