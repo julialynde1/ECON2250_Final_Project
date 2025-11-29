@@ -35,17 +35,21 @@ This file contains our **hypothesis testing**, and was where we were able to det
 ::: {#CPS Library Pull .textbox style="color: purple"}
 **What is this?**
 
-The data for our project is stored within an R Library. This data set can be found isolated in our "data" folder in data.qmd. To collect the data we needed for this project, we filtered the data set by two states: CA and VT**.** This data set provided us with 377 rows and 17 columns of information.
+*The data for our project is stored within an R Library. This data set can be found isolated in our "data" folder in data.qmd. To collect the data we needed for this project, we filtered the data set by two states: CA and VT**.** This data set provided us with 377 rows and 17 columns of information.*
 :::
 
-**One-Sided T-Test:**
+**One-Sided Test:**
 
 ::: {#T-Test .textbox style="color: purple"}
-**What is a one-sided T-Test?**
+**What is a one-sided Test?**
+
+*For a one-sided test of an unknown parameter, the null and alternative hypothesis are H0: Theta \>= c, & H1: Theta \< c, respectively. The hypothesis test of H0 determines whether there is statistical evidence to reject H0.*
 
 **Why was this appropriate for our research?**
 
-**How did we conduct the T-Test?**
+*Provided that we are seeking to compare two different values—the average age of a workforce eligible population–this is more appropriate than a two-sided test. For a two-sided test, the null hypothesis is instead H0: theta = c, and the alternative hypothesis is H1 != c. This form of testing is not appropriate given our research topic.*
+
+**How did we conduct the T-Test? Julia....**
 :::
 
 **Box and Whisker Plots:**
