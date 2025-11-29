@@ -18,7 +18,7 @@ https://docs.google.com/presentation/d/1kUfIBut8nY0T4UytkEbsNNgUaNUDwXSB6UNcHTfr
 :::
 ::::
 
-## Outline & Breakdown
+## Outline & Breakdown of Our Project
 
 Our primary project work and data analysis can be found in **Project.Rproj.qmd**
 
