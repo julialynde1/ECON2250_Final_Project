@@ -12,11 +12,11 @@ Our project analyzes the **average age of workforce eligible residents of Vermon
 
 **Our final presentation can be found here**:
 
-:::: {style="color: green"}
+::: {style="color: green"}
 ::: {style="color: blue"}
 https://docs.google.com/presentation/d/1kUfIBut8nY0T4UytkEbsNNgUaNUDwXSB6UNcHTfr0bY/edit?usp=sharing
 :::
-::::
+:::
 
 ## Outline & Breakdown of Our Project
 
@@ -32,11 +32,9 @@ This file contains our **hypothesis testing**, and was where we were able to det
 
 **CPS Library Pull:**
 
-::: {#CPS Library Pull .textbox style="color: purple"}
-**What is this?**
+::: {#CPS Library Pull .textbox style="color: purple"} **What is this?**
 
-*The data for our project is stored within an R Library. This data set can be found isolated in our "data" folder in data.qmd. To collect the data we needed for this project, we filtered the data set by two states: CA and VT**.** This data set provided us with 377 rows and 17 columns of information.*
-:::
+*The data for our project is stored within an R Library. This data set can be found isolated in our "data" folder in data.qmd. To collect the data we needed for this project, we filtered the data set by two states: CA and VT**.** This data set provided us with 377 rows and 17 columns of information.* :::
 
 **One-Sided Test:**
 
@@ -49,23 +47,30 @@ This file contains our **hypothesis testing**, and was where we were able to det
 
 *Provided that we are seeking to compare two different values—the average age of a workforce eligible population–this is more appropriate than a two-sided test. For a two-sided test, the null hypothesis is instead H0: theta = c, and the alternative hypothesis is H1 != c. This form of testing is not appropriate given our research topic.*
 
-**How did we conduct the T-Test? (Julia)**
+**How did we conduct the T-Test?**
+
+*To create the T-test we created the variable "vt_ca" by filtering data from the CPS data set given. We then ran a t test in R using the null hypothesis stating that difference in means when calculating California minus Vermont would be less than 0, indicating that the mean age in California is less than that of Vermont. The alternative hypothesis was that the difference would be greater than 0. This test also gave us the p-value, t-value, means of the data set, and the other necessary descriptive statistics.*
 :::
 
 **Box and Whisker Plots:**
 
-::: {#Box & Whisker .textbox style="color: purple"}
-**What box and whisker plots did we have? (in other words, what did you show with those plots...) (Julia)**
+::: {#Box style="color: purple"}
+**What box and whisker plots did we have?**
 
-**How did we create the box and whisker plots? (Julia)**
+*We have 2 box and whisker plots, one showing the age distribution of the workforce eligible population of Vermont and the other showing the age distribution of the workforce eligible population of California.*
 
-**What did the box & whisker plots tells us? (Julia)**
+**How did we create the box and whisker plots?**
+
+We created the box and whisker plots using the CPS data, with California and Vermont being on 2 separate plots. The y-axis of both plots is age while the x-axis is empty.
+
+**What did the box & whisker plots tells us?**
+
+The box and whisker plots show that California has a more evenly spread age distribution with a lower mean. The IQR of California also appears smaller, indicating the residents of the state who are workforce eligible is more centralized. The box and whisker plot for Vermont shows a more skewed distribution, with the third quartile being smaller than the first quartile. This indicates there is a larger population of older workforce eligible residents in this state compared to younger ones.
 :::
 
 **Confident Intervals:**
 
-::: {#CI's .textbox style="color: purple"}
-**What are confidence intervals?**
+::: {#CI's .textbox style="color: purple"} **What are confidence intervals?**
 
 *An interval of possible values for a parameter based on an estimator.*
 
@@ -75,15 +80,12 @@ This file contains our **hypothesis testing**, and was where we were able to det
 
 **How did we show these confidence intervals? (Sarah)**
 
-**What do the CI's tell us? (Sarah)**
-:::
+**What do the CI's tell us? (Sarah)** :::
 
 **T-Distribution Plot w/ Critical Value:**
 
-::: {#T-Distribution & CV .textbox style="color: purple"}
-**What does a T-distribution Plot and CV tell us? (Sarah)**
+::: {#T-Distribution & CV .textbox style="color: purple"} **What does a T-distribution Plot and CV tell us? (Sarah)**
 
 **How did we show a this plot? (Sarah)**
 
-**What did this plot tell us? (Sarah)**
-:::
+**What did this plot tell us? (Sarah)** :::
