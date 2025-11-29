@@ -3,3 +3,9 @@ title: "data"
 format: html
 ---
 
+## CPS Data
+
+```{r}
+library(probstats4econ)
+cps%>%filter(statefips%in%c("VT","CA"))%>%glimpse()
+```
