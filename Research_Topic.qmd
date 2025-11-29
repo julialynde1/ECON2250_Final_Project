@@ -1,6 +1,6 @@
 ---
 title: "Research Topic"
-format: html
+format: pdf
 editor: visual
 ---
 
