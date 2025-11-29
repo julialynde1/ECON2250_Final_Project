@@ -10,3 +10,7 @@ Our project analyzes the **average age of workforce eligible residents of Vermon
 
 
 ## Link to our presentation 
+**Link**:
+``` {r}
+https://docs.google.com/presentation/d/1kUfIBut8nY0T4UytkEbsNNgUaNUDwXSB6UNcHTfr0bY/edit?usp=sharing
+```
