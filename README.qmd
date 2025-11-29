@@ -49,17 +49,17 @@ This file contains our **hypothesis testing**, and was where we were able to det
 
 *Provided that we are seeking to compare two different values—the average age of a workforce eligible population–this is more appropriate than a two-sided test. For a two-sided test, the null hypothesis is instead H0: theta = c, and the alternative hypothesis is H1 != c. This form of testing is not appropriate given our research topic.*
 
-**How did we conduct the T-Test? Julia....**
+**How did we conduct the T-Test? (Julia)**
 :::
 
 **Box and Whisker Plots:**
 
 ::: {#Box & Whisker .textbox style="color: purple"}
-**What box and whisker plots did we have? (in other words, what did you show with those plots...)**
+**What box and whisker plots did we have? (in other words, what did you show with those plots...) (Julia)**
 
-**How did we create the box and whisker plots?**
+**How did we create the box and whisker plots? (Julia)**
 
-**What did the box & whisker plots tells us?**
+**What did the box & whisker plots tells us? (Julia)**
 :::
 
 **Confident Intervals:**
@@ -67,17 +67,23 @@ This file contains our **hypothesis testing**, and was where we were able to det
 ::: {#CI's .textbox style="color: purple"}
 **What are confidence intervals?**
 
-**How did we show these confidence intervals?**
+*An interval of possible values for a parameter based on an estimator.*
 
-**What do the CI's tell us?**
+*A 95% confidence interval for a parameter is an interval for which, before observing the sample, there is 95% probability that the parameter is in the interval created by the estimation procedure.*
+
+![](images/clipboard-4170877385.png)
+
+**How did we show these confidence intervals? (Sarah)**
+
+**What do the CI's tell us? (Sarah)**
 :::
 
 **T-Distribution Plot w/ Critical Value:**
 
 ::: {#T-Distribution & CV .textbox style="color: purple"}
-**What does a T-distribution Plot and CV tell us?'**
+**What does a T-distribution Plot and CV tell us? (Sarah)**
 
-**How did we show a this plot?**
+**How did we show a this plot? (Sarah)**
 
-**What did this plot tell us?**
+**What did this plot tell us? (Sarah)**
 :::
