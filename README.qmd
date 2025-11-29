@@ -61,11 +61,11 @@ This file contains our **hypothesis testing**, and was where we were able to det
 
 **How did we create the box and whisker plots?**
 
-We created the box and whisker plots using the CPS data, with California and Vermont being on 2 separate plots. The y-axis of both plots is age while the x-axis is empty.
+*We created the box and whisker plots using the CPS data, with California and Vermont being on 2 separate plots. The y-axis of both plots is age while the x-axis is empty.*
 
 **What did the box & whisker plots tells us?**
 
-The box and whisker plots show that California has a more evenly spread age distribution with a lower mean. The IQR of California also appears smaller, indicating the residents of the state who are workforce eligible is more centralized. The box and whisker plot for Vermont shows a more skewed distribution, with the third quartile being smaller than the first quartile. This indicates there is a larger population of older workforce eligible residents in this state compared to younger ones.
+*The box and whisker plots show that California has a more evenly spread age distribution with a lower mean. The IQR of California also appears smaller, indicating the residents of the state who are workforce eligible is more centralized. The box and whisker plot for Vermont shows a more skewed distribution, with the third quartile being smaller than the first quartile. This indicates there is a larger population of older workforce eligible residents in this state compared to younger ones.*
 :::
 
 **Confident Intervals:**
