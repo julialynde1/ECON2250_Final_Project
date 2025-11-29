@@ -23,9 +23,9 @@ Our project and data analysis can be found in **Project.Rproj.qmd**
 This file contains our **hypothesis testing.** Here, you can finding the following information:
 
 ::: textbox
-CPS Library Pull 
-One-Sided T-Test
+CPS Library Pull
+One-Sided T-Test 
 Box and Whisker Plots
-Confidence Intervals
+Confidence Intervals 
 T-Distribution Plot w/ Critical Value
 :::
