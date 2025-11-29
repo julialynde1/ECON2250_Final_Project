@@ -10,18 +10,70 @@ Our project analyzes the **average age of workforce eligible residents of Vermon
 
 ## Link to our presentation
 
-**Our final presenation can be found here**:
+**Our final presentation can be found here**:
 
-::: textbox
+:::: {style="color: green"}
+::: {style="color: blue"}
 https://docs.google.com/presentation/d/1kUfIBut8nY0T4UytkEbsNNgUaNUDwXSB6UNcHTfr0bY/edit?usp=sharing
 :::
+::::
 
-## Outline
+## Outline & Breakdown
 
-Our project and data analysis can be found in **Project.Rproj.qmd**
+Our primary project work and data analysis can be found in **Project.Rproj.qmd**
 
-This file contains our **hypothesis testing.** Here, you can finding the following information:
+This file contains our **hypothesis testing**, and was where we were able to determine whether to reject or accept the null hypothesis**.** Here, you can finding the following information:
 
 ::: textbox
 1.  CPS Library Pull 2. One-Sided T-Test 3. Box and Whisker Plots 4. Confidence Intervals 5. T-Distribution Plot w/ Critical Value
+:::
+
+**Break down of each of the following is below:**
+
+**CPS Library Pull:**
+
+::: {#CPS Library Pull .textbox style="color: purple"}
+**What is this?**
+
+The data for our project is stored within an R Library. This data set can be found isolated in our "data" folder in data.qmd. To collect the data we needed for this project, we filtered the data set by two states: CA and VT**.** This data set provided us with 377 rows and 17 columns of information.
+:::
+
+**One-Sided T-Test:**
+
+::: {#T-Test .textbox style="color: purple"}
+**What is a one-sided T-Test?**
+
+**Why was this appropriate for our research?**
+
+**How did we conduct the T-Test?**
+:::
+
+**Box and Whisker Plots:**
+
+::: {#Box & Whisker .textbox style="color: purple"}
+**What box and whisker plots did we have? (in other words, what did you show with those plots...)**
+
+**How did we create the box and whisker plots?**
+
+**What did the box & whisker plots tells us?**
+:::
+
+**Confident Intervals:**
+
+::: {#CI's .textbox style="color: purple"}
+**What are confidence intervals?**
+
+**How did we show these confidence intervals?**
+
+**What do the CI's tell us?**
+:::
+
+**T-Distribution Plot w/ Critical Value:**
+
+::: {#T-Distribution & CV .textbox style="color: purple"}
+**What does a T-distribution Plot and CV tell us?'**
+
+**How did we show a this plot?**
+
+**What did this plot tell us?**
 :::
