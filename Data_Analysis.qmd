@@ -98,9 +98,9 @@ ggplot(df, aes(x, y)) +
 
 ```
 
-
 ## T-Distribution Plot w/ Critical Value
-``` {r}
+
+```{r}
 # Your t-test values
 t_stat <- -0.44845
 df <- 40.22
