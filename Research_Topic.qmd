@@ -8,19 +8,22 @@ editor: visual
 
 **Average age of residents in different regions of the United States**
 
-## Subject, Motivation, & Research Question: 
+## Subject, Motivation, & Research Question:
 
-**Subject**: 
-``` {r}
+**Subject**:
+
+```{r}
 Average age of workforce eligible residents of Vermont and California.
 ```
 
-**Motivation:** 
-``` {r}
+**Motivation:**
+
+```{r}
 Our topic ties into urbanization, as California is the most urbanized state (94.2%) while Vermont is the least (35.1%). We want to see how urbanization may affect the average age of residents in a state. The average age of the workforce in a given state can also give insights into the economic conditions of the area, as an aging workforce can lower productivity and result in a shrinking workforce.
 ```
 
-**Research Question:** 
-``` {r}
+**Research Question:**
+
+```{r}
 Is the average age of Vermont higher than that of California? Null hypothesis: VT (age) ≥ CA (age)
 ```
