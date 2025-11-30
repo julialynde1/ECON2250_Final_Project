@@ -20,16 +20,26 @@ https://docs.google.com/presentation/d/1kUfIBut8nY0T4UytkEbsNNgUaNUDwXSB6UNcHTfr
 
 ## Files & Code: 
 
-**Written Report:**
+::: textbox
+**Written Report:** Contains an introduction to the project motivation, data, and research question. Includes a brief description of the hypothesis testing, and describes key results. Finishes with a discussion and conclusion regarding the research question at hand, supported by statistical arguments. This section addresses potential flaws in our work, and potential for future research. No code to be run.
 
-**Research Topic (qmd & pdf):**
+**Research Topic (qmd & pdf):** Explores the subject, motivation, and research question of the topic at hand. No code to be run.
 
-**Data File:**
+**Data File:** Our data file contains *data.qmd*, a document which pulls information from an R library. This data is filtered for the states of California and Vermont. Before the data can be accessed, the following code must be run:
+:::
 
-**Project & Data Analysis:**
+```{r}
+library(tidyverse)
+```
+
+::: textbox
+After this code is run, one may run the small bit of code in the data file to access the data set used for this research.
+
+**Project & Data Analysis:** The file titled *e1_project.Rproj.qmd* holds the bulk of our research. This file pulls CPS information from the library mentioned above, conducts a one-sided t-test, displays box & whisker plots, highlights confidence intervals, and graphs a t-distribution plot with critical value.
 
 **Presentation File:**
 
 **Gitignore:**
 
 **Peer Reviews:**
+:::
