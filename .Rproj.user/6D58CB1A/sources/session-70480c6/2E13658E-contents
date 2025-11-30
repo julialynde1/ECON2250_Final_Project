@@ -35,11 +35,11 @@ library(tidyverse)
 ::: textbox
 After this code is run, one may run the small bit of code in the data file to access the data set used for this research.
 
-**Project & Data Analysis:** The file titled *e1_project.Rproj.qmd* holds the bulk of our research. This file pulls CPS information from the library mentioned above, conducts a one-sided t-test, displays box & whisker plots, and graphs a t-distribution plot with critical value.
+**Project & Data Analysis:** The file titled *e1_project.Rproj.qmd* holds the bulk of our research. This file pulls CPS information from the library mentioned above, conducts a one-sided t-test, displays box & whisker plots, and graphs a t-distribution plot with critical value. In order for the data to be gathered and for the graphs to plot, each section of code presented must be run in order of display.
 
-**Presentation File:**
+**Presentation File:** The presentation file include a Presentation-Link.qmd document, which contains a link to our final presentation slides.
 
-**Gitignore:**
+**Gitignore:** The gitignore file is there as a means of listing files that are in the local RStudio, but not in the GitHub Repo. For our case, there were no such files, leaving this document blank.
 
-**Peer Reviews:**
+**Peer Reviews:** Here can be found a checklist of issues that arise from the peer reviews, and a reflection as to how we address these issues.
 :::
