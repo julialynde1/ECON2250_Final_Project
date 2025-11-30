@@ -3,9 +3,9 @@
     "path": "~/Desktop/ECON2250_Labs_Weitz_Sarah/final_project_reseach/e1_project.Rproj.qmd",
     "project_path": "e1_project.Rproj.qmd",
     "type": "quarto_markdown",
-    "hash": "0",
+    "hash": "2615780813",
     "contents": "",
-    "dirty": false,
+    "dirty": true,
     "created": 1764447434792.0,
     "source_on_save": false,
     "relative_order": 6,
@@ -16,16 +16,16 @@
         "Source": "Source",
         "docOutlineVisible": "1",
         "rmdVisualCollapsedChunks": "",
-        "rmdVisualModeLocation": "1076:1279",
-        "cursorPosition": "8,0",
-        "scrollLine": "0"
+        "rmdVisualModeLocation": "1411:914",
+        "cursorPosition": "79,0",
+        "scrollLine": "35"
     },
     "folds": "",
-    "lastKnownWriteTime": 1764477940,
+    "lastKnownWriteTime": 1764480028,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1764479729181,
+    "last_content_update": 1764480031778,
     "read_only": false,
     "read_only_alternatives": []
 }

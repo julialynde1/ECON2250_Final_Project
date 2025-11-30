@@ -35,7 +35,7 @@ library(tidyverse)
 ::: textbox
 After this code is run, one may run the small bit of code in the data file to access the data set used for this research.
 
-**Project & Data Analysis:** The file titled *e1_project.Rproj.qmd* holds the bulk of our research. This file pulls CPS information from the library mentioned above, conducts a one-sided t-test, displays box & whisker plots, highlights confidence intervals, and graphs a t-distribution plot with critical value.
+**Project & Data Analysis:** The file titled *e1_project.Rproj.qmd* holds the bulk of our research. This file pulls CPS information from the library mentioned above, conducts a one-sided t-test, displays box & whisker plots, and graphs a t-distribution plot with critical value.
 
 **Presentation File:**
 
