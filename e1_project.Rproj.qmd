@@ -60,7 +60,6 @@ boxplot(ca,
 
 ```
 
-
 ## T-Distribution Plot w/ Critical Value
 
 ```{r}
