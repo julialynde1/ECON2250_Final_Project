@@ -45,7 +45,7 @@ vt <- vt_ca$age[vt_ca$statefips == "VT"]
 boxplot(vt,
         main = "Vermont Age Distribution",
         ylab = "Age",
-        xlab = "")  # empty x-axis label
+        xlab = "")
 
 
 ```
