@@ -1,3 +1,0 @@
-"0",""
-"0","# 95% quantile for one-tailed test (right tail)"
-"0","abline(v = qt(0.95, df = df), col = ""red"", lty = 2)"
