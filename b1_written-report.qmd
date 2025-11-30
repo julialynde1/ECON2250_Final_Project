@@ -26,7 +26,11 @@ Together, the t-test and visual analysis confirm that urbanization appears assoc
 
 ## Discussion & Conclusion
 
-Cristina
+Our analysis indicates that Vermont, the less urbanized state, has a higher average age among its working-age population compared to California, the most urbanized state. This finding aligns with the expectation that lower urbanization may be associated with older populations, potentially due to lower residents migrating toward urban areas for education and employment opportunities. The difference in age distributions, as shown in the box and whisker plots, highlights how demographic trends vary with urbanization levels and may have implications for workforce availability and economic growth.
+
+These results suggest that states with lower urbanization may face challenges related to an aging workforce, such as labor shortages, reduced productivity, or increased pressure on social services. Conversely, highly urbanized states like California may benefit from a younger and more evenly distributed workforce, which could support sustained economic activity and innovation.
+
+In conclusion, our project demonstrates a clear relationship between urbanization and workforce age, showing that less urbanized areas tend to have older working populations. Understanding these demographic patterns is important for policymakers and planners, as it can inform strategies to attract younger workers, support aging populations, and maintain economic stability across states with varying levels of urbanization.
 
 ## Outline & Breakdown of Our Project
 
