@@ -84,14 +84,14 @@ The box and whisker plots show the overall age distribution of each state. The C
 
 **How did we show these confidence intervals? (Sarah)**
 
-**What do the CI's tell us? (Sarah)** 
+**What do the CI's tell us? (Sarah)** testing 
 :::
 
 **T-Distribution Plot w/ Critical Value:**
 
 ::: {#T-Distribution & CV .textbox style="color: purple"} **What does a T-distribution Plot and CV tell us? (Sarah)**
 
-**How did we show a this plot? (Sarah)**
+**How did we show a this plot? (Sarah)** testing 
 
-**What did this plot tell us? (Sarah)** 
+**What did this plot tell us? (Sarah)** testing 
 :::
