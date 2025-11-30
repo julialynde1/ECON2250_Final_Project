@@ -49,17 +49,20 @@ The data for our project is stored within an R Library. This data set can be fou
 
 **How did we create the box and whisker plots?**
 
-We created the box and whisker plots in R by isolating the Vermont and California age data. Each plot only has the data from one state. The y-axis shows the age of residents while the x-axis is unlabeled as each plot only measures one variable.
+*We created the box and whisker plots in R by isolating the Vermont and California age data. Each plot only has the data from one state. The y-axis shows the age of residents while the x-axis is unlabeled as each plot only measures one variable.*
 
 **What did the box & whisker plots tells us?**
 
-The box and whisker plots show the overall age distribution of each state. The California plot shows that the mean age is slightly lower than that of Vermont, and the IQR is more compressed indicating a more even distribution. The Vermont plot is more skewed towards older ages, indicating there are more residents around and above the mean age given.
+*The box and whisker plots show the overall age distribution of each state. The California plot shows that the mean age is slightly lower than that of Vermont, and the IQR is more compressed indicating a more even distribution. The Vermont plot is more skewed towards older ages, indicating there are more residents around and above the mean age given.*
 :::
 
-![](images/Vermont%20Age%20box%20and%20whisker){width="447"}
+![](images/Vermont Age box and whisker){width="476"}
 
-![](images/california%20age%20box%20and%20whisker){width="447"}
+<<<<<<< HEAD
+=======
+![](images/california age box and whisker){width="476"}
 
+>>>>>>> 054e7050e73f038201d5cec5a4ad3e2ae78c5ccf
 **T-Distribution Plot w/ Critical Value:**
 
 ::: {.textbox style="color: purple"}
