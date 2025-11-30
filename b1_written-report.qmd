@@ -6,7 +6,9 @@ editor: visual
 
 ## Introduction and Data
 
-Cristina
+Urbanization shapes the demographic and economic conditions of states across the U.S., influencing population structure and workforce characteristics. Our project examines how levels of urbanization may relate to the average age of working-age residents. To explore this relationship, we compare California, the most urbanized state at 94.2%, with Vermont, the least urbanized state at 35.1%. Understanding whether less urbanized areas have older working populations can offer insight into potential economic challenges, such as shrinking labor forces or reduced productivity.
+
+Our analysis uses data from the Current Population Survey (CPS), a monthly survey conducted by the U.S. Census Bureau. The CPS includes demographic and labor-force information such as age, state, and employment status, but for this project we focus only on respondents' age and state of residence. We restrict the dataset to individuals living in California or Vermont to directly compare their working-age populations. This leads us to our research question: **Is the average age of Vermont's working-age population higher than that of California?**
 
 ## Methodology
 
