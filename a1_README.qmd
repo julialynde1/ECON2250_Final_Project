@@ -12,13 +12,13 @@ Our project analyzes the **average age of workforce eligible residents of Vermon
 
 **Our final presentation can be found here**:
 
-:::: {style="color: green"}
+::: {style="color: green"}
 ::: {style="color: blue"}
 https://docs.google.com/presentation/d/1kUfIBut8nY0T4UytkEbsNNgUaNUDwXSB6UNcHTfr0bY/edit?usp=sharing
 :::
-::::
+:::
 
-## Files & Code: 
+## Files & Code:
 
 ::: textbox
 **Written Report:** Contains an introduction to the project motivation, data, and research question. Includes a brief description of the hypothesis testing, and describes key results. Finishes with a discussion and conclusion regarding the research question at hand, supported by statistical arguments. This section addresses potential flaws in our work, and potential for future research. No code to be run.
