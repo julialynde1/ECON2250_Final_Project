@@ -68,6 +68,10 @@ This file contains our **hypothesis testing**, and was where we were able to det
 *The box and whisker plots show that California has a more evenly spread age distribution with a lower mean. The IQR of California also appears smaller, indicating the residents of the state who are workforce eligible is more centralized. The box and whisker plot for Vermont shows a more skewed distribution, with the third quartile being smaller than the first quartile. This indicates there is a larger population of older workforce eligible residents in this state compared to younger ones.*
 :::
 
+![](images/Vermont Age box and whisker){width="447"}
+
+![](images/california age box and whisker){width="447"}
+
 **Confident Intervals:**
 
 ::: {#CI's .textbox style="color: purple"} **What are confidence intervals?**
