@@ -95,7 +95,9 @@ The data for our project is stored within an R Library. This data set can be fou
 
 *A t-distribution plot visually shows the range of possible t-values under the null hypothesis and how likely each value is. The critical value (CV) marks the threshold beyond which we would reject the null hypothesis at a chosen significance level. If the calculated t-statistic falls past the CV, it indicates the observed difference is unlikely due to chance. Together, the plot and CV help visually and quantitatively determine whether to reject the null hypothesis.*
 
-**How did we show this as a plot?** Cristina
+**How did we show this as a plot?**
+
+*We displayed our results visually using box and whisker plots, with separate plots for California and Vermont. Each plot shows the distribution of age within the state, with the y-axis representing age and the x-axis unlabeled since only one variable is measured. These plots highlight the central tendency, spread, and skewness of the age data, making differences between the states clear.*
 
 **What did this plot tell us?** Cristina
 :::
