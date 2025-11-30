@@ -18,7 +18,11 @@ To test our research question, we conducted a one-sided t-test. In a one-sided t
 
 ## Results
 
-Cristina
+The one-sided t-test comparing the average age of the working-age population in Vermont and California showed that Vermont has a higher mean age than California. The test provided statistical evidence to reject the null hypothesis, supporting the conclusion that Vermont's workforce is older on average.
+
+The box and whisker plots further illustrate the differences between the two states. Vermont's age distribution is skewed toward older ages, with a wider interquartile range, indicating a larger proportion of residents above the mean age. In contrast, California's distribution is more compressed and centered around a slightly lower mean, reflecting a younger and more evenly distributed workforce.
+
+Together, the t-test and visual analysis confirm that urbanization appears associated with differences in workforce age, with the less urbanized Vermont showing an older working population compared to the highly urbanized California.
 
 ## Discussion & Conclusion
 
