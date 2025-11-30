@@ -60,21 +60,6 @@ The box and whisker plots show the overall age distribution of each state. The C
 
 ![](images/california%20age%20box%20and%20whisker){width="447"}
 
-**Confident Intervals:**
-
-::: {.textbox style="color: purple"}
-**What are confidence intervals?**
-
-*An interval of possible values for a parameter based on an estimator.*
-
-*A 95% confidence interval for a parameter is an interval for which, before observing the sample, there is 95% probability that the parameter is in the interval created by the estimation procedure.*
-
-![](images/clipboard-4170877385.png)
-
-**How did we show these confidence intervals?** Cristina
-
-**What do the CI's tell us?** Cristina
-:::
 
 **T-Distribution Plot w/ Critical Value:**
 

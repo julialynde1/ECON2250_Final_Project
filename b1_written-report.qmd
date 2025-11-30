@@ -18,10 +18,10 @@ This file contains our **hypothesis testing**, and was where we were able to det
 
 **CPS Library Pull:**
 
-::::::: textbox
+::: textbox
 **What is this?**
 
-The data for our project is stored within an R Library. This data set can be found isolated in our "data" folder in data.qmd. To collect the data we needed for this project, we filtered the data set by two states: **CA and VT**. This data set provided us with 377 rows and 17 columns of information. 
+The data for our project is stored within an R Library. This data set can be found isolated in our "data" folder in data.qmd. To collect the data we needed for this project, we filtered the data set by two states: **CA and VT**. This data set provided us with 377 rows and 17 columns of information.
 :::
 
 **One-Sided Test:**
@@ -60,21 +60,6 @@ The box and whisker plots show the overall age distribution of each state. The C
 
 ![](images/california%20age%20box%20and%20whisker){width="447"}
 
-**Confident Intervals:**
-
-::: {.textbox style="color: purple"}
-**What are confidence intervals?**
-
-*An interval of possible values for a parameter based on an estimator.*
-
-*A 95% confidence interval for a parameter is an interval for which, before observing the sample, there is 95% probability that the parameter is in the interval created by the estimation procedure.*
-
-![](images/clipboard-4170877385.png)
-
-**How did we show these confidence intervals?** Cristina
-
-**What do the CI's tell us?** Cristina
-:::
 
 **T-Distribution Plot w/ Critical Value:**
 
@@ -86,5 +71,4 @@ The box and whisker plots show the overall age distribution of each state. The C
 **What did this plot tell us?** Cristina
 :::
 
-Change to pdf when done!
-:::::::
+Change to pdf when done! :::::::
