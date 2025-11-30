@@ -49,16 +49,24 @@ This file contains our **hypothesis testing**, and was where we were able to det
 
 **How did we conduct the T-Test?**
 
-To conduct the t-test we isolated the Vermont and California CPS data and creates a variable "vt_ca". The t-test was ran with the null hypothesis that the difference in means between California and Vermont was less than 0, which would indicate that the mean age of Vermont is greater than that of California. The alternative hypothesis was "greater".
+*To conduct the t-test we isolated the Vermont and California CPS data and creates a variable "vt_ca". The t-test was ran with the null hypothesis that the difference in means between California and Vermont was less than 0, which would indicate that the mean age of Vermont is greater than that of California. The alternative hypothesis was "greater".*
 :::
 
 **Box and Whisker Plots:**
 
-::: {#Box & Whisker .textbox style="color: purple"} **What box and whisker plots did we have? (in other words, what did you show with those plots...) (Julia)**
+::: {.textbox style="color: purple"}
+**What box and whisker plots did we have?**
 
-**How did we create the box and whisker plots? (Julia)**
+*We used two box and whisker plots, one representing the age distribution in California and the other representing the age distribution in Vermont.*
 
-**What did the box & whisker plots tells us? (Julia)** :::
+**How did we create the box and whisker plots?**
+
+We created the box and whisker plots in R by isolating the Vermont and California age data. Each plot only has the data from one state. The y-axis shows the age of residents while the x-axis is unlabeled as each plot only measures one variable.
+
+**What did the box & whisker plots tells us?**
+
+The box and whisker plots show the overall age distribution of each state. The California plot shows that the mean age is slightly lower than that of Vermont, and the IQR is more compressed indicating a more even distribution. The Vermont plot is more skewed towards older ages, indicating there are more residents around and above the mean age given.
+:::
 
 ![](images/Vermont%20Age%20box%20and%20whisker){width="447"}
 
