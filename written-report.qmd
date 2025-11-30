@@ -61,7 +61,6 @@ The box and whisker plots show the overall age distribution of each state. The C
 **Confident Intervals:**
 
 ::: textbox
-
 **What are confidence intervals?**
 
 *An interval of possible values for a parameter based on an estimator.*
@@ -70,21 +69,20 @@ The box and whisker plots show the overall age distribution of each state. The C
 
 ![](images/clipboard-4170877385.png)
 
-**How did we show these confidence intervals? (Sarah)**
+**How did we show these confidence intervals?** Cristina
 
-**What do the CI's tell us? (Sarah)** testing 
-
-**T-Distribution Plot w/ Critical Value:**
+**What do the CI's tell us?** Cristina
 :::
 
-::: textbox 
+**T-Distribution Plot w/ Critical Value:**
 
- **What does a T-distribution Plot and CV tell us? (Sarah)**
 
-**How did we show a this plot? (Sarah)** testing
+::: textbox
+**What does a T-distribution Plot and CV tell us?** Cristina
 
-**What did this plot tell us? (Sarah)** testing 
+**How did we show this as a plot?** Sarah
 
+**What did this plot tell us?** Cristina
 :::
 
 Change to pdf when done!
