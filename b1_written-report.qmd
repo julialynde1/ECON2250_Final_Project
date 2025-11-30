@@ -4,6 +4,18 @@ format: html
 editor: visual
 ---
 
+## Introduction and Data
+Cristina
+
+## Methodology
+Cristina
+
+## Results
+Cristina
+
+## Discussion & Conclusion 
+Cristina
+
 ## Outline & Breakdown of Our Project
 
 Our primary project work and data analysis can be found in **Project.Rproj.qmd**
@@ -56,16 +68,16 @@ The data for our project is stored within an R Library. This data set can be fou
 *The box and whisker plots show the overall age distribution of each state. The California plot shows that the mean age is slightly lower than that of Vermont, and the IQR is more compressed indicating a more even distribution. The Vermont plot is more skewed towards older ages, indicating there are more residents around and above the mean age given.*
 :::
 
-![](images/Vermont Age box and whisker){width="476"}
+![](images/Vermont%20Age%20box%20and%20whisker){width="476"}
 
-![](images/california age box and whisker){width="476"}
+![](images/california%20age%20box%20and%20whisker){width="476"}
 
 **T-Distribution Plot w/ Critical Value:**
 
 ::: {.textbox style="color: purple"}
 **What does a T-distribution Plot and CV tell us?** Cristina
 
-**How did we show this as a plot?** Sarah
+**How did we show this as a plot?** Cristina
 
 **What did this plot tell us?** Cristina
 :::
