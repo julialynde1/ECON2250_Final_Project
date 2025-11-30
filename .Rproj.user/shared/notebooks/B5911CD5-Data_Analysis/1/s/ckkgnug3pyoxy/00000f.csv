@@ -1,0 +1,7 @@
+"0","ca <- vt_ca$age[vt_ca$statefips == ""CA""]"
+"0",""
+"0","boxplot(ca,"
+"0","        main = ""California Age Distribution"","
+"0","        ylab = ""Age"","
+"0","        xlab = """")"
+"0",""

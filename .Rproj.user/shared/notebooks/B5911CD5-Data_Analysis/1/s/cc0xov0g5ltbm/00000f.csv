@@ -1,0 +1,2 @@
+"0","vt_ca <- cps %>%"
+"0","  filter(statefips %in% c(""VT"", ""CA""))"

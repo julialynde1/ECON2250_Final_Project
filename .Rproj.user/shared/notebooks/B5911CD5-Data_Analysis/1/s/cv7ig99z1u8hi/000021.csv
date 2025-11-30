@@ -1,0 +1,6 @@
+"0","# Your t-test values"
+"0","t_stat <- -0.44845"
+"0","df <- 40.22"
+"0",""
+"0","# Plot t-distribution"
+"0","curve(dt(x, df = df), from = -4, to = 4, ylab = ""Density"")"

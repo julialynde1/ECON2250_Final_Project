@@ -1,0 +1,117 @@
+---
+title: "Data Analysis"
+format: html
+editor: visual
+---
+
+## Hypothesis Testing
+
+```{r}
+library(tidyverse)
+```
+
+## CPS Library Pull
+
+```{r}
+library(probstats4econ)
+cps%>%filter(statefips%in%c("VT","CA"))%>%glimpse()
+
+```
+
+```{r}
+vt_ca <- cps %>%
+  filter(statefips %in% c("VT", "CA"))
+```
+
+## One Sided T-test
+
+```{r}
+t.test(age ~ statefips,
+       data = vt_ca,
+       alternative = "greater")
+```
+
+::: textbox
+**t value:** indicates that the mean of data set "ca" (California) is lower than that of data set "vt" (Vermont).
+
+**p-value:** the value is high indicating that there is a high chance the null hypothesis is true.
+
+**alternative hypothesis:** the test was run to see if the result of ca-vt was less than or equal to 0, and a negative difference would indicate that the mean of ca is less than vt.
+:::
+
+## Box and Whisker Plot
+
+```{r}
+vt <- vt_ca$age[vt_ca$statefips == "VT"]
+
+boxplot(vt,
+        main = "Vermont Age Distribution",
+        ylab = "Age",
+        xlab = "")  # empty x-axis label
+
+
+```
+
+```{r}
+ca <- vt_ca$age[vt_ca$statefips == "CA"]
+
+boxplot(ca,
+        main = "California Age Distribution",
+        ylab = "Age",
+        xlab = "")
+
+```
+
+## Confidence Intervals
+
+```{r}
+library(ggplot2)
+
+# Your values:
+diff_mean <- 44.51026 - 45.30556   # difference in means
+se_diff <-  (3.781076) / 1.96      # approximate standard error from CI 
+                                  
+
+# Define 95% CI bounds (using your lower bound and an upper bound for plotting)
+ci_lower <- diff_mean - 1.96 * se_diff
+ci_upper <- diff_mean + 1.96 * se_diff
+
+# Create a sequence of x values over a reasonable range
+x <- seq(diff_mean - 4 * se_diff, diff_mean + 4 * se_diff, length.out = 200)
+
+# Calculate normal density values for these x
+y <- dnorm(x, mean = diff_mean, sd = se_diff)
+
+# Put into a data frame
+df <- data.frame(x = x, y = y)
+
+# Plot with shaded 95% confidence interval
+ggplot(df, aes(x, y)) +
+  geom_line(color = "blue") +
+  geom_ribbon(data = subset(df, x >= ci_lower & x <= ci_upper), aes(ymin = 0, ymax = y), fill = "blue", alpha = 0.3) +
+  labs(
+    title = "Normal Distribution of Difference in Means with 95% CI",
+    x = "Difference in Means (CA - VT)",
+    y = "Density"
+  ) +
+  theme_minimal()
+
+```
+
+## T-Distribution Plot w/ Critical Value
+
+```{r}
+# Your t-test values
+t_stat <- -0.44845
+df <- 40.22
+
+# Plot t-distribution
+curve(dt(x, df = df), from = -4, to = 4, ylab = "Density")
+
+# 95% quantile for one-tailed test (right tail)
+abline(v = qt(0.95, df = df), col = "red", lty = 2)
+
+# t-statistic
+abline(v = t_stat, col = "blue", lwd = 2)
+
+```
