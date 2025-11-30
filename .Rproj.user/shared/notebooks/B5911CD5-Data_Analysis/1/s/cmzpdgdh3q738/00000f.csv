@@ -1,6 +1,0 @@
-"0","vt <- vt_ca$age[vt_ca$statefips == ""VT""]"
-"0",""
-"0","boxplot(vt,"
-"0","        main = ""Vermont Age Distribution"","
-"0","        ylab = ""Age"","
-"0","        xlab = """")  # empty x-axis label"
