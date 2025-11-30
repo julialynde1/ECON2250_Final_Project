@@ -12,11 +12,11 @@ Our project analyzes the **average age of workforce eligible residents of Vermon
 
 **Our final presentation can be found here**:
 
-::: {style="color: green"}
+:::: {style="color: green"}
 ::: {style="color: blue"}
 https://docs.google.com/presentation/d/1kUfIBut8nY0T4UytkEbsNNgUaNUDwXSB6UNcHTfr0bY/edit?usp=sharing
 :::
-:::
+::::
 
 ## Outline & Breakdown of Our Project
 
@@ -84,7 +84,8 @@ The box and whisker plots show the overall age distribution of each state. The C
 
 **How did we show these confidence intervals? (Sarah)**
 
-**What do the CI's tell us? (Sarah)** :::
+**What do the CI's tell us? (Sarah)** 
+:::
 
 **T-Distribution Plot w/ Critical Value:**
 
@@ -92,4 +93,5 @@ The box and whisker plots show the overall age distribution of each state. The C
 
 **How did we show a this plot? (Sarah)**
 
-**What did this plot tell us? (Sarah)** :::
+**What did this plot tell us? (Sarah)** 
+:::
