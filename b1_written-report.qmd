@@ -5,15 +5,19 @@ editor: visual
 ---
 
 ## Introduction and Data
+
 Cristina
 
 ## Methodology
+
 Cristina
 
 ## Results
+
 Cristina
 
-## Discussion & Conclusion 
+## Discussion & Conclusion
+
 Cristina
 
 ## Outline & Breakdown of Our Project
@@ -30,7 +34,7 @@ This file contains our **hypothesis testing**, and was where we were able to det
 
 **CPS Library Pull:**
 
-::: textbox
+::: {.textbox style="color: purple"}
 **What is this?**
 
 The data for our project is stored within an R Library. This data set can be found isolated in our "data" folder in data.qmd. To collect the data we needed for this project, we filtered the data set by two states: **CA and VT**. This data set provided us with 377 rows and 17 columns of information.
@@ -82,4 +86,4 @@ The data for our project is stored within an R Library. This data set can be fou
 **What did this plot tell us?** Cristina
 :::
 
-Change to pdf when done! :::::::
+Change to pdf when done!
