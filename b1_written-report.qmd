@@ -1,6 +1,6 @@
 ---
 title: "written-report"
-format: html
+format: pdf
 editor: visual
 ---
 
