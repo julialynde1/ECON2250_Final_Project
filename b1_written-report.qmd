@@ -84,9 +84,9 @@ The data for our project is stored within an R Library. This data set can be fou
 *The box and whisker plots show the overall age distribution of each state. The California plot shows that the mean age is slightly lower than that of Vermont, and the IQR is more compressed indicating a more even distribution. The Vermont plot is more skewed towards older ages, indicating there are more residents around and above the mean age given.*
 :::
 
-![](http://127.0.0.1:26643/chunk_output/s/D649E348/cndzcfsz6km2u/000010.png){width="462"}
+![](images/clipboard-1111875603.png){width="462"}
 
-![](http://127.0.0.1:26643/chunk_output/s/D649E348/c12ezrf1qpvee/000010.png){width="462"}
+![](images/clipboard-2440561397.png){width="426"}
 
 **T-Distribution Plot w/ Critical Value:**
 
@@ -104,4 +104,4 @@ The data for our project is stored within an R Library. This data set can be fou
 *The t-distribution plot shows the t-statistic of -0.448, which reflects that the mean age in California (44.51) is slightly less than that in Vermont (45.31). Because the t-value is negative, it aligns with the null hypothesis that the difference in means (CA-VT) is less than or equal to zero. The high p-value (0.6719) indicates that this difference is not statistically significant, meaning the null hypothesis is more likely to be true. Overall, the plot visually confirms that we do not have enough evidence to support the alternative hypothesis that California's working-age population is older than Vermont's.*
 :::
 
-![](http://127.0.0.1:26643/chunk_output/s/D649E348/ccb0wd3prkd87/000014.png)
+![](images/clipboard-2667889283.png)
