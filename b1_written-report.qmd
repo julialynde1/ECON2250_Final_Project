@@ -86,7 +86,7 @@ The data for our project is stored within an R Library. This data set can be fou
 
 ![](images/clipboard-1111875603.png){width="462"}
 
-![](images/clipboard-2440561397.png){width="426"}
+![](images/clipboard-2440561397.png){width="462"}
 
 **T-Distribution Plot w/ Critical Value:**
 
